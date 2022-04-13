@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const path = require('path')
-const nextConfig = {
+const withPWA = require('next-pwa')
+
+const nextConfig = withPWA({
   reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
@@ -9,6 +11,9 @@ const nextConfig = {
     locales: ['en-US', 'pt-BR'],
     defaultLocale: 'pt-BR',
   },
-}
+  pwa: {
+    dest: 'public',
+  },
+})
 
 module.exports = nextConfig
