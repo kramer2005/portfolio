@@ -34,7 +34,8 @@ const Home = () => {
         <meta name="keywords" content={locales[locale].keywords} />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }}
+          dangerouslySetInnerHTML={{ __html: json }}
+          key="product-jsonld"
         ></script>
       </Head>
       <Navbar />
