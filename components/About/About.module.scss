@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.picture {
+  flex: 0 0 25%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #FFD700;
+    z-index: 100;
+  }
+}
+
+.aboutText {
+  flex: 0 0 75%;
+  line-height: 1.2rem;
+
+  a {
+    text-decoration: underline;
+  }
+}

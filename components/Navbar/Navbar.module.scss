@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  background: white;
+  padding: 0 6rem;
+
+  & > a {
+    display: flex;
+    column-gap: 4px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    column-gap: 2rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+}
+
