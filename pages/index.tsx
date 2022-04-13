@@ -21,7 +21,7 @@ const Home = () => {
             '"@context": "http://schema.org/",' +
             '"@type": "Person",' +
             '"name": "Wagner Kramer",' +
-            '"jobTitle": "${locales[locale].jobTitle}",' +
+            `"jobTitle": "${locales[locale].jobTitle}",` +
             '"telephone": "+55 (41) 9 9984-6408",' +
             '"url": "https://kramer.dev.br",' +
             '"sameAs": [' +
