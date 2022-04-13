@@ -6,7 +6,7 @@ import Projects from '../components/Projects/Projects'
 import Contact from '../components/Contact/Contact'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import locales from './index.locales'
+import locales from '../components/index.locales'
 
 const Home = () => {
   const { locale } = useRouter()
