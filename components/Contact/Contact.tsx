@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import EmailIcon from '@mui/icons-material/Email'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import PhoneIcon from '@mui/icons-material/Phone'
+import ArticleIcon from '@mui/icons-material/Article'
 import locales from './Contact.locales'
 import { useRouter } from 'next/router'
 
@@ -54,6 +55,12 @@ const Contact = () => {
             <PhoneIcon />
             <a target="__blank" rel="noreferrer noopener" href="tel:+5541999846408">
               +55 (41) 9 99984-6408
+            </a>
+          </div>
+          <div>
+            <ArticleIcon />
+            <a target="__blank" rel="noreferrer noopener" href="/resume.pdf">
+              {locales[locale].resume}
             </a>
           </div>
         </div>
