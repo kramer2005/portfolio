@@ -43,7 +43,7 @@ const Home = () => {
         <meta property="og:url" content="https://kramer.dev.br/" />
         <meta property="og:title" content="KramerDev" />
         <meta property="og:description" content={locales[locale].description} />
-        <meta property="og:image" content="http://kramer.dev.br/coffee.jpg" />
+        <meta property="og:image" content="https://kramer.dev.br/coffee.jpg" />
       </Head>
       <Navbar />
       <Banner />
