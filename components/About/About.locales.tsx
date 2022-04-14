@@ -18,9 +18,9 @@ const locales = {
           <a target="__blank" rel="noreferrer noopener" href="https://quirons.com.br/">
             Quirons
           </a>
-          , um software de Saúde e Segurança no trabalho. Na maior parte do tempo estou refatorando
-          ferramentas e criando novas funcionalidades, de forma a melhorar a experiência do usuário
-          com nosso sistema.
+          , um software de Saúde e Segurança no trabalho. Para melhorar a experiência do usuário com
+          nosso sistema, trabalho na refatoração de ferramentas e na implementação de novos recursos
+          complexos.
         </p>
         <p>
           Anteriormente, trabalhei na{' '}
@@ -32,10 +32,8 @@ const locales = {
           melhor desenvolvimento.
         </p>
         <p>
-          Como um entusiasta do C, comecei a escrever alguns artigos para postar no Medium com dicas
-          para desenvolver softwares melhores (quando estiverem prontos, postarei aqui). Além disso,
-          comecei a me envolver na comunidade Ubuntu, criando pequenas bibliotecas para ajudar
-          outros desenvolvedores.
+          Hoje tenho planos de me formar e me mudar para outro país. A longo prazo, quero começar
+          uma empresa de desenvolvimento.
         </p>
       </>
     ),
