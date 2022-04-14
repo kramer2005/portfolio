@@ -11,7 +11,7 @@ import locales from '../components/index.locales'
 const Home = () => {
   const { locale } = useRouter()
 
-  const json = `
+  const jsonLD = `
 {
   "@context": "http://schema.org/",
   "@type": "Person",
@@ -34,7 +34,7 @@ const Home = () => {
         <meta name="keywords" content={locales[locale].keywords} />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: json }}
+          dangerouslySetInnerHTML={{ __html: jsonLD }}
           key="product-jsonld"
         ></script>
       </Head>

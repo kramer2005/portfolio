@@ -26,3 +26,11 @@
 .fullWidth {
   width: 100%;
 }
+
+@media screen and (max-width: 992px) {
+  .contact {
+    & > div {
+      flex-direction: column;
+    }
+  }
+}

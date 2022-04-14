@@ -52,3 +52,16 @@
     margin-top: 0;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .image {
+    display: none;
+  }
+  
+  .text {
+    flex: 0 0 100%;
+    p {
+      width: 100%;
+    }
+  }
+}

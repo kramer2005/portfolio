@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
   position: fixed;
   width: 100%;
   left: 0;
@@ -29,3 +28,12 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .navbar {
+    padding: .5rem 2rem;
+    flex-direction: column;
+    a{
+      font-size: 1rem;
+    }
+  }
+}
