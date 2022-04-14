@@ -37,6 +37,13 @@ const Home = () => {
           dangerouslySetInnerHTML={{ __html: jsonLD }}
           key="product-jsonld"
         ></script>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@KramerDev" />
+        <meta name="twitter:creator" content="@KramerDev" />
+        <meta property="og:url" content="https://kramer.dev.br/" />
+        <meta property="og:title" content="KramerDev" />
+        <meta property="og:description" content={locales[locale].description} />
+        <meta property="og:image" content="http://kramer.dev.br/coffee.jpg" />
       </Head>
       <Navbar />
       <Banner />
